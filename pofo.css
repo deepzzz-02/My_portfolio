@@ -1,0 +1,388 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+ margin: 0px; 
+ padding: 0px;
+ box-sizing: border-box;
+  
+}
+@media screen and (max-width: 1800px) {
+
+
+body{
+width: 100vw;
+height: 100vh;
+ background: 
+ radial-gradient(circle,#014871, #D7EDE2); 
+ min-height: 100vh;
+ 
+}
+.header{
+ position: sticky;
+ top: 0;
+ padding : 10px;
+ z-index: 1000;
+ 
+}
+.navbar{
+ background-color: #78593C;
+padding: 0;
+margin: 3px;
+ position: sticky;
+}
+.logo{
+ font-size: 4rem;
+}
+.logo img{
+ width: 130px;
+ height: 130px;
+}
+.menu ul{
+ display: flex;
+ justify-content: flex-end;
+
+ align-items: center;
+ padding: 15px;
+}
+ ul{
+ display: flex;
+ 
+ justify-content: flex-end;
+ text-decoration: none;
+ 
+}
+.menu li {
+ list-style: none;
+}
+ .menu li  a{
+ padding-right: 20px;
+ 
+ text-decoration: none;
+ color: #000;
+}
+a {
+ color: #000;
+ font-size: 2em;
+ 
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+.menu ul{
+ top: 10px;
+}
+.navbar .manu{
+ padding :30px;
+}
+body{
+ background-image: url('/learn1/img1.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+position: relative;
+display: fixed;
+} 
+
+.one h1{
+ Color:#000000;
+ font-size: 2rem;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-shadow: 1px 0px 1px #686975;
+  margin: 400px 0px 0px 20px;
+}
+.one div{
+ Color:#000000;
+ font-size: 7em;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-shadow: 3px 2px 7px #686975;
+  margin-left: 30px;
+}
+.one span{
+ color: #78593C;
+}
+.one h2{
+ font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-shadow: 3px 0px 5px #686975;
+  font-size: 2rem;
+  margin-left: 200px;
+}
+.two img{
+ 
+ width: 150px;
+ height: 150px;
+ margin:  640px 0px 0px 425px;
+}
+.two div{
+ font-family: 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-shadow: 3px 0px 5px #686975;
+  font-size: 2rem;
+  
+  margin : 50px 0px 0px 150px;
+}  
+section{
+ width: 100vw;
+ height :  100%;
+// position: absolute;
+ display: fixed;
+ margin: 0;
+ padding: 0;
+}
+.about  .main1{
+ font-size: 4rem;
+ color: black;
+ width: 100vw;
+ height: 100vh;
+}
+.main1 h1{
+  Color: black;
+font-size: 5rem;
+  
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+margin: 300px 0px 0px 250px;
+
+}
+.main2 div{
+ 
+ font-size: 7rem;
+  color: #78593C;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-shadow: 3px 0px 5px #686975
+margin-top: 250px;
+}
+.main3 p{
+ font-size: 35px;
+ margin: 30px;
+ padding: 30px;
+}
+#button{
+ width: 450px
+ height: 100px;
+ background-color: #78593C;
+ box-shadow: 1px 3px 5px #D6AE74;
+ border-radius: 25px;
+ margin-left:300px;
+}
+#button:hover{
+ color: black ;
+ background-color: #BDA788;
+}
+/*section{
+ width: 100vw;
+ height :  100%;
+ position: absolute;
+ display: fixed;
+ margin: 0;
+ padding: 0;
+}*/
+
+#skill  .skill{
+ font-size: 4rem;
+ color: black;
+ width: 100vw;
+ height: 100vh;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  position: reletive;
+}
+.card{
+ width: 800px;
+ margin: 60px auto;
+ color: #fff;
+ padding : 20px;
+ box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.code{
+text-align: center;
+  font-family: "Alata", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 70px;
+  
+}
+.card li{
+ list-style: none;
+ text-transform: uppercase;
+ margin: 60px 0 0 0;
+ padding: 10px ;
+}
+ h3{
+ 
+ margin: 30px;
+}
+li .like{
+ background:black; 
+ display: block;
+ height: 20px;
+ border: 1px solid rgba(0, 0, 0, 0.3);
+ border-radius: 10px;
+ overflow: hidden;
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.like:hover{
+ box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.like span{
+ height: 20px;
+ float: left;
+ background:
+ linear-gradient(135deg,rgba(185, 137, 86, 1)0%,rgba(114, 84, 52, 1)100%);
+ 
+}
+
+ .html{
+ width: 95%;
+ animation: html 5s;
+ }
+ .css{
+ width: 90%;
+ animation: css 5s;
+ }
+
+ .javascript {
+ width: 30%;
+ animation: javascript 5s;
+ }
+ .boostrap {
+ width: 85%;
+ animation: bootstrap 5s ;
+ }
+ .python {
+ width: 60%;
+ animation: python 5s ;
+ 
+ }
+ @keyframes html{
+  0%{
+   width: 0%;
+   transform: translate(10);
+  }
+  100%{
+   width: 95%;
+   transform: scale(1);
+  }
+ }
+  @keyframes css{
+  0%{
+   width: 0%;
+  }
+  100%{
+   width: 90%;
+  }
+ }
+  @keyframes javascript{
+  0%{
+   width: 0%;
+  }
+  100%{
+   width: 30%;
+  }
+ } 
+
+ @keyframes boostrap{
+  0%{
+   width: 0%;
+  }
+  100%{
+   width: 85%;
+  }
+ }
+  @keyframes python{
+  0%{
+   width: 0%;
+  }
+  100%{
+   width: 60%;
+  }
+ }
+ #but{
+  width: 350px;
+  margin: 100px 0 0 300px;
+  background-color:#78593C ;
+ border-radius: 20px;
+ box-shadow: 5px 7px 3px #0F0F10;
+  
+ }
+ #but:hover{
+  background-color: #A7834F;
+color: white;
+transform: scale( 1.2);
+ }
+/* section {
+   width: 100vw;
+ height :  100%;
+ position: reletive;
+ display: fixed;
+ margin: 0;
+ padding: 0;
+ }*/
+ #contact{
+ width: 100vw;
+ height :  100%;
+ position: absolute;
+ display: fixed;
+ margin: 0;
+ padding: 0;
+}
+.con{
+  width: 100vw;
+  height: 100vh
+  position: absolute;
+ }
+ .con h1{
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-shadow: 3px 5px  7px rgba(0, 0, 0, 0.25);
+  margin: 100px 0 0 350px;
+ }
+ .con img{
+  width: 400px;
+  height: 500px;
+  margin: 100px 0 0 300px ;
+ }
+ .webcon a i{
+  font-size: 80px;
+  color: black;
+  margin: 150px 0 0 200px;
+ }
+ .webcon a{
+ color: black;
+ font-size: 30px;
+ text-decoration: none;
+ margin: 20px 0 0 10px;
+ }
+ .end h3{
+  margin: 10px 0 0 300px ;
+ }
+ 
+ footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1850px;
+  background-position: bottom;
+}
